@@ -362,6 +362,7 @@ img{
   margin: 0 var(--mb-2)
 }
 
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
