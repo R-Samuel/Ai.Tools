@@ -125,7 +125,7 @@ var salesdata =[];
           var protecdisp = Balance.data.additional_balances.fundprotect_available_sum
 
           var message =
-		  '#####MY ADVERTISING#####' + '\n'
+		  '#####MYADVERTISING#####' + '\n'
 		  +'Cashback : ' + dispo + ' $' + '\n' 
 		  + 'Pending : ' + attente + ' $' + '\n' 
 		  + '\n' + '#####PREVIOUS CAMPAIGNS#####' + '\n'
