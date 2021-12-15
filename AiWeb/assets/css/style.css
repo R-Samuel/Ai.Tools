@@ -52,6 +52,7 @@
 html{
   scroll-behavior: smooth;
 }
+
 body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
@@ -143,6 +144,9 @@ img{
 .nav__item{
   margin-bottom: var(--mb-4);
 }
+
+
+
 .nav__link{
   position: relative;
   color: #fff;
@@ -407,3 +411,5 @@ img{
   text-align: center;
   margin-bottom: var(--mb-2);
 }
+
+
