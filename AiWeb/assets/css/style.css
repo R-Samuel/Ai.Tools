@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Couleurs =====*/
 :root{
   --first-color: rgb(0, 140, 255);
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== police et typographie =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Marges =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -176,7 +176,6 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
 }
 
 /*=== Show menu ===*/
