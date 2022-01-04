@@ -1,0 +1,24 @@
+{
+  "name": "ai.tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node /AiWeb/assets/js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-Samuel/Ai.Tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-Samuel/Ai.Tools/issues"
+  },
+  "homepage": "https://github.com/R-Samuel/Ai.Tools#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  }
+}

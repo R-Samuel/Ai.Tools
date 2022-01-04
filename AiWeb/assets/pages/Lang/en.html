@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/AiWeb/assets/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="16x16" href="/AiTools/images/icon16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../AiTools/images/icon16.png">
     <title>AiWeb</title>
 </head>
 <body id="body">
     <header class="lheader">
         <nav class="nav bd-grid">
             <div>
-                <a href="/AiWeb/index.html" class="nav__logo">AiWeb</a>
+                <a href="./index.html" class="nav__logo">AiWeb</a>
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="/index.html" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="./tableaux.html" class="nav__link active">Tableaux</a></li>
-                    <li class="nav__item"><a href="./download.html" class="nav__link active">Télécharger</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="./assets/pages/tableaux.html" class="nav__link active">Tableaux</a></li>
+                    <li class="nav__item"><a href="./assets/pages/download.html" class="nav__link active">Download</a></li>
                 </ul>
             </div>
             <div>
-                <a href="./loggin.html" class="nav__logo">Se Connecter / s'inscrire</a><br>
+                <a href="./assets/pages/loggin.html" class="nav__logo">Sign-in / sign-up</a><br>
             </div>
             <div class="nav__toogle" id="nav-toogle">
                 <em class='bx bx-menu'></em>
@@ -34,48 +34,45 @@
     <!--===== HOME =====-->
     <section class="home bd-grid" id="home">
         <div class="home__data">
-            <h1 class="home__title">Excellente Décision<span class="home__title-color"><br> Téléchargez l'extension <br> Ai.Tools</span><br><span class="home__title-color"></span></h1>
-            <a href="./loggin.html" class="button"><em class="fas fa-arrow-down">Se Connecter</em></a>
+            <h1 class="home__title"><span class="home__title-color"> Ai.Web</span><br>The official WebSite <br><span class="home__title-color">Ai.Tools</span></h1>
+            <a href="./assets/pages/loggin.html" class="button"><em class="fas fa-arrow-down">Se Connecter</em></a>
             <a href="#footer" class="button"><i class="fas fa-arrow-up">Get Down</i></a>
 
         </div>        
     </section>
 
-     <!--===== Télécharger =====-->
+     <!--===== Explication =====-->
      <section class="about section " id="what-is-this">
-        <h2 class="section-title">Télécharger</h2>
+        <h2 class="section-title">AiWeb et AiTools, What is this</h2>
+
         <div class="about__container bd-grid"> 
             <div>
-                <h2 class="about__subtitle">Télécharger</h2>
-                <p class="about__text">vous avez deux maniere de télécharger notre extension, sois en passant directement par le chrome marketplace, sois ici</p>
-            </div>
-            
+                <h2 class="about__subtitle">Explications</h2>
+                <p class="about__text">Ai.Web est le site de l'extension Ai.Tools</p>
+                <p class="about__text">le but est de créer une extentions chrome pour Ai.marketing, qui est complètement indépendant</p>           
+            </div> 
             <div class="about__img">
-                <a href="" class="pied"><i class="fas fa-arrow-up">Télécharger</i></a> <!--== lien a définir ==-->
                 <img src="./assets/img/icone4k.png" alt="">
-            </div>   
-                                          
+            </div>                                 
         </div>
-        
     </section>
-
-
 
      <!--===== FOOTER =====-->
      <footer class="footer" id="footer"> 
         <p class="footer__title">Ai.Web</p>
         <div class="footer__social">
             
-            <a href="pages/english.html" class="button"><i class="fas fa-globe-americas">En</i></a>
+            <a href="/AiWeb/index.html" class="button"><i class="fal fa-globe">Fr</i></a>
             <a href="#home" class="button"><i class="fas fa-arrow-up">Get Up</i></a>
         </div>
         <p>&#169; <span id="date"></span> copyright all right reserved</p>
     </footer>
 
+
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script> 
 
     <!--===== MAIN JS =====-->
-    <script src="../js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
